@@ -46,7 +46,4 @@ WeatherAPI
 WeatherAPI uses the latitude and longitude from the NASA data to return current weather information for each facility.
 <img width="2662" height="3697" alt="history-in-hd-e5eDHbmHprg-unsplash" src="https://github.com/user-attachments/assets/0a9c9473-b53e-4022-b7c8-4ed9bfcbb194" />
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
