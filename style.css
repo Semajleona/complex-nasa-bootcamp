@@ -1,0 +1,19 @@
+ * {
+     display: flex;
+     flex-direction: column;
+ }
+
+ span {
+     color: red;
+ }
+
+ body {
+     background-image: url(history-in-hd-e5eDHbmHprg-unsplash.jpg);
+
+
+ }
+
+ h1,
+ h2 {
+     color: white;
+ }
