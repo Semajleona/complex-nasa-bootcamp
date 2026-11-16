@@ -1,3 +1,5 @@
+
+
 document.querySelector('button').addEventListener('click', nasaLocationsWeather)
 
 function nasaLocationsWeather() {
@@ -52,6 +54,3 @@ function nasaLocationsWeather() {
             console.log(`NASA error: ${err}`)
         })
 }
-
-
-
