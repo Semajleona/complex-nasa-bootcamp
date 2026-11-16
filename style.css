@@ -57,22 +57,7 @@ p, span {
     text-align: center;
 }
 
-/* INPUT FIELDS */
-input, select {
-    width: 100%;
-    max-width: 350px;
-    padding: 15px;
-    margin: 15px auto;
 
-    background-color: white;
-    color: #101827;
-
-    border: 2px solid #64d8ff;
-    border-radius: 10px;
-
-    font-size: 18px;
-    text-align: center;
-}
 
 /* BUTTON */
 button {
