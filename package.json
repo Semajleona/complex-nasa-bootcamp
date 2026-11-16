@@ -1,0 +1,13 @@
+
+{
+  "name": "complex-nasa-bootcamp",
+  "version": "1.0.0",
+  "description": "NASA API web application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
