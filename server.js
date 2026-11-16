@@ -5,8 +5,8 @@ const app = express()
 const PORT = process.env.PORT || 8080
 
 // Serve HTML, CSS, JS and images
-app.use(express.static(path.join(__dirname, 'public')))
 
+app.use(express.static(__dirname))
 // NASA API route
 app.get('/api/nasa', async (req, res) => {
     try {
