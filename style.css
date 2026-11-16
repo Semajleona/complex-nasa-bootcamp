@@ -1,19 +1,166 @@
- * {
-     display: flex;
-     flex-direction: column;
- }
 
- span {
-     color: red;
- }
+/* GENERAL STYLING */
+* {
+    box-sizing: border-box;
+}
 
- body {
-     background-image: url(history-in-hd-e5eDHbmHprg-unsplash.jpg);
+body {
+    margin: 0;
+    padding: 50px 20px;
+    min-height: 100vh;
 
+    background-image:
+        linear-gradient(
+            rgba(0, 10, 30, 0.65),
+            rgba(0, 10, 30, 0.8)
+        ),
+        url("nasa-rocket.jpg");
 
- }
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
- h1,
- h2 {
-     color: white;
- }
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MAIN HEADING */
+h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-shadow: 2px 3px 8px black;
+}
+
+/* SECONDARY HEADINGS */
+h2 {
+    font-size: 32px;
+    color: #64d8ff;
+    margin-top: 25px;
+    text-shadow: 1px 2px 5px black;
+}
+
+/* TEXT */
+p, span {
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* INPUT FIELDS */
+input, select {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    margin: 15px auto;
+
+    background-color: white;
+    color: #101827;
+
+    border: 2px solid #64d8ff;
+    border-radius: 10px;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+/* BUTTON */
+button {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    min-height: 65px;
+
+    margin: 25px auto;
+    padding: 15px 25px;
+
+    background-color: #007bff;
+    color: white;
+
+    border: 2px solid #64d8ff;
+    border-radius: 12px;
+
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 20px rgba(0, 123, 255, 0.4);
+
+    transition: 0.3s ease;
+}
+
+/* BUTTON HOVER */
+button:hover {
+    background-color: #00aaff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 170, 255, 0.6);
+}
+
+/* BUTTON CLICK */
+button:active {
+    transform: scale(0.97);
+}
+
+/* KEYBOARD FOCUS */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 3px;
+}
+
+/* RESULTS */
+section {
+    width: 100%;
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 25px;
+
+    background-color: rgba(0, 15, 40, 0.75);
+    border: 1px solid #64d8ff;
+    border-radius: 15px;
+
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+    body {
+        padding: 25px 15px;
+        background-attachment: scroll;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p, span {
+        font-size: 17px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
